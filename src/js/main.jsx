@@ -22,7 +22,6 @@ function renderApp() {
       />
     </React.StrictMode>
   );
-  // Verificar alerta
   if (targetAlert !== null && counter === targetAlert) {
     alert(`¡Alerta! Llegaste a ${targetAlert} segundos`);
     targetAlert = null;
